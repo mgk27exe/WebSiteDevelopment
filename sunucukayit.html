@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+	<title> KAYIT FORMU </title>
+    <link rel="stylesheet" href="stil.css" type="text/css" />
+	<link rel="shortcut icon" href="indir.png">
+</head>
+<body align="center">
+		<ul>
+			<li><a href="anasayfa.html">Anasayfa</a></li>
+			<li><a href="sunucukayit.html">Sunucu Kayıt Formu</a></li>
+			<li><a href="urunler.html">Ürünler</a></li>
+			<li><a href="hakkimizda.html">Hakkımızda Ve İletişim</a></li> 
+		</ul><br><br><br>
+<form method="get" action="secondpage.html"	>	
+			<table align="center" cellspacing="10">
+				
+				<h1 align="center"> SUNUCU KAYIT FORMU </h1>
+				<tr>
+					<td align="right"> Ad: </td>
+					<td> <input type="text" name="ad" size="30"> </td>
+				</tr>
+				<tr>
+					<td align="right"> Soyad: </td>
+					<td> <input type="text" name="soyad" size="30"> </td>
+				</tr>
+				<tr>
+					<td align="right"> E-Mail: </td>
+					<td> <input type="text" name="mail" size="30" </td>
+				</tr>
+				<tr>
+					<td align="right"> Kullanıcı Adı: </td>
+					<td> <input type="text" name="k.adi" size="30" </td>
+				</tr>
+				<tr>
+					<td align="right"> Doğum Tarihi: </td>
+					<td> <input type="date" name="dogumtarihi" size"30" </td>
+				</tr>	
+				<tr>
+					<td align="right"> Olmak İstenilen Bölüm: </td>
+					<td>
+						<fieldset>
+							<legend> Seçiniz: </legend>
+							<label> <input type="radio" value="TASARIMCI" name="dil"> TASARIMCI </label><br>
+							<label> <input type="radio" value="TEKNİK EKİP" name="dil"> TEKNİK EKİP </label><br>
+							<label> <input type="radio" value="YÖNETİM EKİBİ" name="dil"> YÖNETİM EKİBİ </label><br>
+						</fieldset>
+					</td>
+				</tr>
+				<tr>
+					<td align="right"> Neden Sizi Alalım: </td>
+					<td> <textarea cols="30" rows="6" name="aciklama"></textarea></td>
+				</tr>
+				<tr align="center">
+					<td colspan="2">
+						<input type="submit" value="GÖNDER">
+						<input type="reset" value="RESET">
+					</td>
+				</tr>
+			</table>
+		</form>
+
+</body>
+</html>

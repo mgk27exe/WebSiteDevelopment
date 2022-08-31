@@ -1,0 +1,68 @@
+﻿/*CSS KODLARI*/
+
+			body{ 
+				background-image: url(sky.jpg);
+				background-repeat: norepeat;
+				background-size: 1700px 900px;
+				background-color: blue;
+				background-attachment: scroll;
+				}
+			table{
+				background-image: url(kyloren.jpg);
+				background-position: center;
+				background-attachment: scroll;
+				background-size: 700px 450px;
+				color: white;
+				}
+			h1{
+				text-decoration: overline underline;
+				color: red;
+				font-weight: bold;
+				}
+			ul{
+				list-style-type:none;
+			}
+			li{
+				float:left;
+				width:350px;
+				margin:0px;
+				padding:5px;
+				text-align:center;
+				font-family:vardana, arial, times;
+				border-color:blueviolet;
+				border-style:solid;
+				background-color:black;
+			}
+			a:link a:visited{
+				display:block;
+				font-weight:bold;
+				color:white;
+				text-decoration:none;
+			}
+			a:hover a:active{
+				display:block;
+				color:red;
+			}
+			p{
+				float:left;
+				width:350px;
+				margin:0px;
+				padding:5px;
+				text-align:center;
+				font-family:vardana, arial, times;
+				border-color:blueviolet;
+				border-style:inset;
+				background-color:blueviolet;
+			}
+			iframe{
+				float:center;
+				width:800px;
+				height: 500px;
+				margin:0px;
+				padding:5px;
+				text-align:center;
+				font-family:vardana, arial, times;
+				border-color:blueviolet;
+				border-style:inset;
+				background-color:blueviolet;
+			}
